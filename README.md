@@ -47,7 +47,7 @@ Vue/Express/Mongoose
 
 ### 项目预览图
 
-![](http://wuchuang222.gz01.bdysite.com/vmall/123123.jpg)
+![](http://wuchuang222.gz01.bdysite.com/vmall/20200604004555.png)
 
 ------
 
