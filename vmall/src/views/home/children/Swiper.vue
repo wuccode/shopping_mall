@@ -2,7 +2,7 @@
     <div class="navSwiper">
         <swiper id="swiper" :options="swiperOption" ref="mySwiper">
             <swiper-slide v-for="slideshow in slideshow_list" :key="slideshow._id">
-                <img class="swiper-img" :src="'http://192.168.3.6:5000' + slideshow.Img" />
+                <img class="swiper-img" :src="'http://localhost:5000' + slideshow.Img" />
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
         </swiper>

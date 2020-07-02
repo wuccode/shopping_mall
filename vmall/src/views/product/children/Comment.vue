@@ -14,7 +14,7 @@
                         <div class="left">
                             <div class="head">
                                 <div class="headLeft">
-                                    <img :src="'http://192.168.3.6:5000' + list.photo" alt="" />
+                                    <img :src="'http://localhost:5000' + list.photo" alt="" />
                                 </div>
                                 <div class="headRight">
                                     <p>{{ list.userName }}</p>
@@ -29,7 +29,7 @@
                         </div>
                         <div
                             class="right"
-                            v-lazy:background-image="'http://192.168.3.6:5000' + list.Img[0]"
+                            v-lazy:background-image="'http://localhost:5000' + list.Img[0]"
                             :style="{
                                 background: 'no-repeat',
                                 backgroundSize: 'cover',

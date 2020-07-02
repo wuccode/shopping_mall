@@ -5,7 +5,7 @@
         <List>
             <ul class="listPhone">
                 <li class="liphone" v-for="list in phoneMin" :key="list._id">
-                    <img class="imgs" v-lazy="'http://192.168.3.6:5000' + list.Img" alt />
+                    <img class="imgs" v-lazy="'http://localhost:5000' + list.Img" alt />
                     <div class="promotion">
                         <span>{{ list.promotion }}</span>
                     </div>

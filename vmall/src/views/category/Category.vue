@@ -18,7 +18,7 @@
                         <router-link :to="'/product?id=' + goods.particular">
                             <div
                                 class="img"
-                                v-lazy:background-image="'http://192.168.3.6:5000' + goods.img"
+                                v-lazy:background-image="'http://localhost:5000' + goods.img"
                                 :style="{
                                     background: 'no-repeat',
                                     backgroundSize: 'cover',

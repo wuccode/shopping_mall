@@ -11,7 +11,7 @@
             <ul ref="scrollC">
                 <li v-for="list in comment" :key="list._id">
                     <div class="heads">
-                        <img class="headimg" :src="'http://192.168.3.6:5000' + list.photo" alt="" />
+                        <img class="headimg" :src="'http://localhost:5000' + list.photo" alt="" />
                         <div class="headtitle">
                             <span>{{ list.userName }}</span>
                             <div :class="{ negative: list.star == 5 }"></div>
@@ -29,7 +29,7 @@
                                 bgimg: true,
                                 bgimgMax: list.Img.length < 2,
                             }"
-                            v-lazy:background-image="'http://192.168.3.6:5000' + img"
+                            v-lazy:background-image="'http://localhost:5000' + img"
                             :style="{
                                 background: 'no-repeat',
                                 backgroundSize: 'cover',

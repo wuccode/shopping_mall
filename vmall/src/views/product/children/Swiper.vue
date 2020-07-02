@@ -10,7 +10,7 @@
             <swiperSlide v-for="swiper in swiperImg" :key="swiper">
                 <img
                     class="swiper-img"
-                    :src="'http://192.168.3.6:5000' + swiper"
+                    :src="'http://localhost:5000' + swiper"
                 />
             </swiperSlide>
             <div class="swiper-pagination" slot="pagination"></div>

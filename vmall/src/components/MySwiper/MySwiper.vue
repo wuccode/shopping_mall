@@ -48,7 +48,7 @@ export default {
     methods: {
         bg(index) {
             return {
-                background: 'url(http://192.168.3.6:5000' + this.sprite_img + ') no-repeat',
+                background: 'url(http://localhost:5000' + this.sprite_img + ') no-repeat',
                 backgroundSize: '1000% 100%',
                 backgroundPosition: '' + 11.1 * index + '% 0',
             }

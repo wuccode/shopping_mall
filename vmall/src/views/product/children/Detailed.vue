@@ -2,7 +2,7 @@
     <div class="detailed" @click="$emit('detailedClose')">
         <Swiper :options="swiperOption" ref="mySwiper">
             <SwiperSlide v-for="img in detailedImg" :key="img">
-                <img :src="'http://192.168.3.6:5000' + img" alt="" />
+                <img :src="'http://localhost:5000' + img" alt="" />
             </SwiperSlide>
             <div class="swiper-pagination" slot="pagination"></div>
         </Swiper>

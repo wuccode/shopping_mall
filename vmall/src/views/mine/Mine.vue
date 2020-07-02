@@ -4,7 +4,7 @@
         <div class="head">
             <div class="fixation" :style="{ opacity: top }">
                 <div v-if="token">
-                    <img :src="'http://192.168.3.6:5000' + photo" alt="" />
+                    <img :src="'http://localhost:5000' + photo" alt="" />
                     <span>{{ user }}</span>
                 </div>
                 <div v-else>
@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="photo" v-if="token">
-                <img :src="'http://192.168.3.6:5000' + photo" alt="" />
+                <img :src="'http://localhost:5000' + photo" alt="" />
             </div>
             <div class="photo" v-else>
                 <router-link to="/login">

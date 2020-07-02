@@ -9,7 +9,7 @@
         <List>
             <ul>
                 <li :data-promotion="list.promotion" v-for="list in seckill_list" :key="list._id" @click="$router.push('/product?id=' + list.particular)">
-                        <img v-lazy="'http://192.168.3.6:5000' + list.Img" alt />
+                        <img v-lazy="'http://localhost:5000' + list.Img" alt />
                         <span>{{ list.text }}</span>
                 </li>
             </ul>

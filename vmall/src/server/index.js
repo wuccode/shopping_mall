@@ -1,5 +1,5 @@
 import ajax from './ajax'
-const BASE_URL = 'http://192.168.3.6:5000';
+const BASE_URL = 'http://localhost:5000';
 export const URL = BASE_URL;
 //首页数据
 export const getDataHome = () => ajax(BASE_URL + '/api/home');

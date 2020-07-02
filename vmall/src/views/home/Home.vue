@@ -25,7 +25,7 @@
                 <List>
                     <ul class="listWidth">
                         <li class="top" v-for="list in recommendation_list" :key="list._id">
-                            <img class="img" v-lazy="'http://192.168.3.6:5000' + list.Img" alt />
+                            <img class="img" v-lazy="'http://localhost:5000' + list.Img" alt />
                             <div class="promotion">
                                 <span>{{ list.promotion }}</span>
                             </div>

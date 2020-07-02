@@ -3,13 +3,13 @@
         <div class="grid">
             <div v-for="channel in channelList" :key="channel._id">
                 <router-link :to="'/product?id=' + channel.particular">
-                    <img v-lazy="'http://192.168.3.6:5000' + channel.Img" alt />
+                    <img v-lazy="'http://localhost:5000' + channel.Img" alt />
                 </router-link>
             </div>
         </div>
         <div class="channelBottom">
             <div v-for="channel in channelBottom" :key="channel._id">
-                <img v-lazy="'http://192.168.3.6:5000' + channel.Img" alt />
+                <img v-lazy="'http://localhost:5000' + channel.Img" alt />
                 <h5>{{ channel.title }}</h5>
                 <p>{{ channel.promotion }}</p>
                 <p class="pos">

@@ -4,13 +4,13 @@
             <div
                 v-if="!flag"
                 class="img"
-                v-lazy:background-image="'http://192.168.3.6:5000' + phone.Img"
+                v-lazy:background-image="'http://localhost:5000' + phone.Img"
                 :style="{ background: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center center' }"
             >
                 <p>{{ phone.promotion }}</p>
             </div>
             <div v-else class="img">
-                <img :class="{ min: bottom }" :src="'http://192.168.3.6:5000' + phone.Img" alt="" />
+                <img :class="{ min: bottom }" :src="'http://localhost:5000' + phone.Img" alt="" />
                 <p class="note">{{ phone.promotion }}</p>
             </div>
             <p>{{ phone.title }}</p>
